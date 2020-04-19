@@ -16,6 +16,6 @@ Here are the following steps:
 
 4. Set up the [script](/Scripts/crontab.md)
 
-5. Set up openvpn ```sudo apt-get install openvpn```
+5. Set up ngrok
 
 6. Reboot and test the setup
