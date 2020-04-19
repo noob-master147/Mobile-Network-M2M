@@ -14,8 +14,14 @@ Here are the following steps:
 
 3. Set up [Wifi](/Documentation/guide.md)
 
-4. Set up the [script](/Scripts/crontab.md)
+4. Set up the script shell file
+    - copy the [script](/Scripts/script.sh) file at ```/home/pi/```
 
-5. Set up ngrok
+5. Set up reconnect shell file
+    - copy the [reconnect](/Scripts/reconnect.sh) file at ```/home/pi/```
 
-6. Reboot and test the setup
+6. Set up [Crontab](/Scripts/crontab.md)
+
+7. Set up ngrok
+
+8. Reboot and test the setup

@@ -1,8 +1,9 @@
-* open terminal and type
+* Open terminal and type
     * ```crontab -e```
     * Go to the bottom of the file 
-    * add this line
-        * ```@reboot /home/pi/script.sh```
+    * add these lines
+        * ```@reboot /home/pi/reconnect.sh```
+        * ```* \10 * * * /home/pi/script.sh```
     * press ctrl+x
     * press y
     * press enter
