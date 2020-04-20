@@ -1,14 +1,16 @@
-* open terminal
-* type the following commands 
+# Setting up WiFi for Raspberry Pi 2
+
+* Open Terminal _(Ctrl+Alt+t)_
+* Type the following commands 
     * ```sudo apt-get update```
     * ```sudo apt-get upgrade -y```
     * ```sudo nano /etc/wpa_supplicant/wpa_supplicant.conf```
-* Copy and Paste all the code from [wpa file](../Scripts/wpa.txt)
+* Copy and Paste all the code from [wpa file](../Scripts/wpa.md)
 * After pasting
     * press ctrl+x
     * press y
     * press enter
-* on terminal type
+* On terminal type
     * ```sudo nano /etc/network/interfaces```
-    * erase the prev. content & paste all the content in [interface](../Documentation/interface.txt)
+    * Erase the previous content & paste all the content in [interface](../Documentation/interface.txt) file
     * ```reboot```
