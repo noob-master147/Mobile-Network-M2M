@@ -5,7 +5,7 @@
     * ```sudo apt-get update```
     * ```sudo apt-get upgrade -y```
     * ```sudo nano /etc/wpa_supplicant/wpa_supplicant.conf```
-* Copy and Paste all the code from [wpa file](../Scripts/wpa.md)
+* Copy and Paste all the code from [wpa file](../Scripts/wpa.txt)
 * After pasting
     * press ctrl+x
     * press y
